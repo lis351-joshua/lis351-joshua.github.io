@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "DM Serif";
+    src: url(./assets/fonts/DM_Serif_Text/DMSerifText-Regular.ttf);
+}
+
+body {
+    background-color: #f1eccc;
+    color:#282828;
+    
+}
+
+h1,h2,h3,h4,h5,h6,li, dl {
+    font-family:"DM Serif", serif;
+}
+
+p, a, dd {
+    font-family:Helvetica, sans-serif
+}
+
+.container {
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+li, dt {
+    text-align:left;
+    font-weight:bold;
+    font-size:24px;
+}
+
+#my-img{
+    width:200px;
+}
+
+p {
+    width:1000px;
+}
+
+.book {
+    width:200px;
+}
+
+.book-flex {
+    display:flex;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    width:1000px;
+    padding:20px;
+    gap:30px;
+}
